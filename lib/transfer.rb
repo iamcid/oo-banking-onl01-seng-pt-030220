@@ -10,8 +10,8 @@ class Transfer
     
   end
 
-  def execute_transaction
-    if @balance < 0
+  def execute_transaction(balance)
+    if transfer.balance < 0
       "Transaction rejected. Please check your account balance."
     end
   end
