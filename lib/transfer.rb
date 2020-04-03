@@ -6,6 +6,17 @@ class Transfer
     @sender, @receiver, @status, @amount = sender, receiver, status, amount
   end
   
+  def valid?
+    
+  end
+
+  def execute_transaction
+    
+  end
+  
+  def reverse_transfer
+    
+  end
   
   
 end
