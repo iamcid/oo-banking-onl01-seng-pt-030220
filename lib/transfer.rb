@@ -1,6 +1,6 @@
 class Transfer
   
-  def initialize(sender, receiver, status = "pending")
+  def initialize(sender, receiver, status = "pending", amount)
   
   
   
